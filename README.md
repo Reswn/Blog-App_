@@ -1,6 +1,7 @@
 # DOKUMENTASI PROJECT UJIAN AKHIR SEMESTER PEMROGRAMAN BERBASIS WEB
 # KELOMPOK  _IF-5A
-### ANGGOTA : 1. DEDEN ADI MARDIAN LAESMANA
+### ANGGOTA : 
+###           1. DEDEN ADI MARDIAN LAESMANA
 ###           2. RENI KARTIKA SUWANDI
 ###           3. KIKIH ISMAN ISKANDAR
 
@@ -184,7 +185,7 @@ Pengguna dapat melihat detail postingan dengan membaca kontennya secara lengkap.
 Pengguna dapat keluar dari akun mereka, dan token JWT dihapus.
 
 ## 8. Struktur Folder
-full-stack-blog/
+```full-stack-blog/
 ├── backend/         # Kode backend
 │   ├── models/      # Skema database
 │   ├── routes/      # Endpoint API
@@ -200,6 +201,7 @@ full-stack-blog/
 ├── .git/            # Metadata Git
 ├── package.json     # Konfigurasi proyek
 └── README.md        # Dokumentasi
+```
 
 ## 9. Kesimpulan
 Aplikasi blog full-stack ini dirancang untuk memberikan pengguna pengalaman pengelolaan blog yang efisien dan aman. Dengan memanfaatkan teknologi modern seperti Node.js, React.js, dan MongoDB, aplikasi ini mampu memberikan performa yang tinggi sekaligus kemudahan dalam penggunaan. Proyek ini juga fleksibel untuk dikembangkan lebih lanjut, baik dalam hal fitur maupun skalabilitas.
