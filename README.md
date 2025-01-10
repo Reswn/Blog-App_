@@ -203,7 +203,86 @@ Pengguna dapat keluar dari akun mereka, dan token JWT dihapus.
 └── README.md        # Dokumentasi
 ```
 
-## 9. Kesimpulan
+
+## Langkah Penggunaan dan Dokumentasi Aplikasi (USER)
+### 1. Register
+   User Melakukan Register/Pendaftaran akun apabila belum mempunyai akun, disini user bisa menggunakan akun lain seperti Google, Apple, dan Facebook
+   ![Halaman Register Blog IT](https://github.com/Reswn/Blog-app/blob/main/signupPbw.png?raw=true)
+   Disini kita menggunakan Clerk Autentikasi (clerk.com) , supaya user bisa mengaitkan dengan akun Google, Apple atau Facebook.
+### 2. Login
+   Ketika user sudah melakukan register atau daftar akun, user bisa melakukan login
+   ![Halaman Login Blog IT](https://github.com/Reswn/Blog-app/blob/main/Loginpbw.png?raw=true)
+
+#### Saat user berhasil Registrasi dan login data disimpan  Di MongoDB
+ ![MongoDb](https://github.com/Reswn/Blog-app/blob/main/Screenshot_10-1-2025_13578_cloud.mongodb.com.jpeg?raw=true)
+
+#### Selain itu data user juga disimpan di Clerk
+ ![Clerk](https://github.com/Reswn/Blog-app/blob/main/Screenshot_10-1-2025_135835_dashboard.clerk.com.jpeg?raw=true)
+ ![clerk overview](https://github.com/Reswn/Blog-app/blob/main/Screenshot_10-1-2025_135820_dashboard.clerk.com.jpeg?raw=true)
+ 
+   
+### 3. HomePage
+   Ketika User sukses melakukan login pada Halaman Login, maka akan muncul tampilan utama website Blog IT, disini kita di suguhkan dengan beberapa fitur seperti filter dan kategori artikel
+   ![Halaman HomePage Blog TI](https://github.com/Reswn/Blog-app/blob/main/Screenshot_10-1-2025_135835_dashboard.clerk.com.jpeg?raw=true).
+### 4. Buka Konten
+   Pada halaman HomePage user bisa membuka konten atau artikel yang tersedia pada halaman HomePage
+   ![Halaman Konten](https://github.com/Reswn/Blog-app/blob/main/Screenshot_10-1-2025_142226_localhost.jpeg?raw=true)
+## 5. Berikan Komentar
+   User dapat memberikan komentar pada artikel yang tersedia. Hal ini memungkinkan interaksi antar user dalam berbagi pandangan atau bertanya tentang isi artikel.
+   ![Halaman Komentar](https://github.com/Reswn/Blog-app/blob/main/Screenshot_10-1-2025_144052_localhost.jpeg?raw=true)
+
+#### Komentar yang diberkan akan di simpan di Database
+ ![Halaman Komentar](https://github.com/Reswn/Blog-app/blob/main/Screenshot_10-1-2025_135631_cloud.mongodb.com.jpeg?raw=true)
+
+   
+### 6. Pencarian Melalui Search Bar
+   Untuk memudahkan menemukan artikel yang diinginkan, user dapat menggunakan fitur pencarian melalui search bar. Cukup ketikkan kata kunci terkait artikel, dan sistem akan menampilkan hasil yang relevan.
+   ![Halaman Search Bar](https://github.com/Reswn/Blog-app/blob/main/Screenshot_10-1-2025_135449_localhost.jpeg?raw=true).
+### 7. Sortir Berdasarkan Newest
+   User dapat mengurutkan artikel berdasarkan yang terbaru dengan memilih opsi "Newest". Fitur ini memastikan user mendapatkan konten terbaru yang dipublikasikan di platform.
+   ![Halaman Utama](https://github.com/Reswn/Blog-app/blob/main/Screenshot_10-1-2025_135014_localhost.jpeg?raw=true)
+### 8. Sortir Berdasarkan Most Popular
+   Artikel yang sering dikunjungi dan memiliki banyak interaksi (komentar/like) dapat diurutkan dengan opsi "Most Popular". Hal ini memudahkan user menemukan artikel yang sedang banyak dibicarakan.
+   ![Halaman Utama](https://github.com/Reswn/Blog-app/blob/main/Screenshot_10-1-2025_13514_localhost.jpeg?raw=true)
+### 9. Sortir Berdasarkan Trending
+   Opsi "Trending" memungkinkan user untuk melihat artikel yang sedang menjadi tren di platform. Artikel ini biasanya yang memiliki peningkatan interaksi signifikan dalam waktu singkat.
+   ![Halaman Utama](https://github.com/Reswn/Blog-app/blob/main/Screenshot_10-1-2025_135420_localhost.jpeg?raw=true)
+### 10. Menghapus Konten Sendiri
+   User yang telah membuat artikel atau konten dapat menghapusnya jika diperlukan. Hal ini memungkinkan user untuk mengelola dan memperbarui konten mereka dengan mudah.
+   ![Halaman Konten](https://github.com/Reswn/Blog-app/blob/main/Screenshot_10-1-2025_145346_localhost.jpeg?raw=true)
+### 11. Mencoba Membuat Konten
+   User juga dapat membuat artikel atau konten baru melalui halaman editor yang disediakan. Dengan fitur ini, user dapat berbagi pengetahuan, pengalaman, atau opini mereka kepada komunitas.
+   ![Halaman Konten](https://github.com/Reswn/Blog-app/blob/main/Screenshot_10-1-2025_15342_localhost.jpeg?raw=true)
+
+ #### Konten yang sudah dibuat akan disimpan di database
+![Halaman Konten](https://github.com/Reswn/Blog-app/blob/main/Screenshot_10-1-2025_135652_cloud.mongodb.com.jpeg?raw=true)
+    
+ #### Gambar yang di upload di simpan pada Image Kit
+ ![Halaman Konten](https://github.com/Reswn/Blog-app/blob/main/Screenshot_10-1-2025_135735_imagekit.io.jpeg?raw=true)
+
+ ### 12. Halaman About
+ pada halaman ini berisi informasi pembuat dari blog ini
+ ![Halaman Konten](https://github.com/Reswn/Blog-app/blob/main/Screenshot_10-1-2025_135515_localhost.jpeg?raw=true)
+ 
+
+
+## Langkah Penggunaan dan Dokumentasi Aplikasi (ADMIN)
+### 1. Login Admin  
+   Admin dapat masuk ke sistem menggunakan kredensial khusus melalui halaman login admin. Setelah berhasil login, admin akan diarahkan ke dashboard untuk mengelola berbagai fitur di aplikasi.  
+   ![Halaman Login Admin Blog IT](https://github.com/Reswn/Blog-app/blob/main/adminLoginPbw.png?raw=true)  
+### 2. Menandai Feature  
+   Admin memiliki kemampuan untuk menandai artikel tertentu sebagai "Featured". Artikel ini akan mendapatkan posisi prioritas di halaman utama, memberikan eksposur lebih besar kepada pembaca.  
+   ![Halaman Menandai Feature Blog IT](https://github.com/Reswn/Blog-app/blob/main/featurePbw.png?raw=true)  
+### 3. Menghapus Komentar  
+   Admin dapat menghapus komentar yang dianggap melanggar aturan atau tidak relevan. Fitur ini membantu menjaga kualitas diskusi dan mencegah spam pada artikel.  
+   ![Halaman Hapus Komentar Blog IT](https://github.com/Reswn/Blog-app/blob/main/deleteCommentPbw.png?raw=true)  
+### 4. Menghapus Konten  
+   Jika terdapat konten yang tidak sesuai atau diminta untuk dihapus, admin dapat menghapus artikel tersebut dari platform. Hal ini memastikan bahwa hanya konten 
+   yang relevan dan sesuai kebijakan yang tersedia di platform.  
+   ![Halaman Hapus Konten Blog IT](https://github.com/Reswn/Blog-app/blob/main/deleteContentAdminPbw.png?raw=true)  
+
+
+## 10. Kesimpulan
 Aplikasi blog full-stack ini dirancang untuk memberikan pengguna pengalaman pengelolaan blog yang efisien dan aman. Dengan memanfaatkan teknologi modern seperti Node.js, React.js, dan MongoDB, aplikasi ini mampu memberikan performa yang tinggi sekaligus kemudahan dalam penggunaan. Proyek ini juga fleksibel untuk dikembangkan lebih lanjut, baik dalam hal fitur maupun skalabilitas.
 
 
