@@ -270,18 +270,27 @@ Pengguna dapat keluar dari akun mereka, dan token JWT dihapus.
 ## Langkah Penggunaan dan Dokumentasi Aplikasi (ADMIN)
 ### 1. Login Admin  
    Admin dapat masuk ke sistem menggunakan kredensial khusus melalui halaman login admin. Setelah berhasil login, admin akan diarahkan ke dashboard untuk mengelola berbagai fitur di aplikasi.  
-   ![Halaman Login Admin Blog IT](https://github.com/Reswn/Blog-app/blob/main/adminLoginPbw.png?raw=true)  
+   ![Halaman Login Admin Blog IT](https://github.com/Reswn/Blog-app/blob/main/Screenshot_10-1-2025_153043_localhost.jpeg?raw=true)  
 ### 2. Menandai Feature  
    Admin memiliki kemampuan untuk menandai artikel tertentu sebagai "Featured". Artikel ini akan mendapatkan posisi prioritas di halaman utama, memberikan eksposur lebih besar kepada pembaca.  
-   ![Halaman Menandai Feature Blog IT](https://github.com/Reswn/Blog-app/blob/main/featurePbw.png?raw=true)  
+   ![Halaman Menandai Feature Blog IT](https://github.com/Reswn/Blog-app/blob/main/Screenshot_10-1-2025_153152_localhost.jpeg?raw=true)  
 ### 3. Menghapus Komentar  
    Admin dapat menghapus komentar yang dianggap melanggar aturan atau tidak relevan. Fitur ini membantu menjaga kualitas diskusi dan mencegah spam pada artikel.  
-   ![Halaman Hapus Komentar Blog IT](https://github.com/Reswn/Blog-app/blob/main/deleteCommentPbw.png?raw=true)  
+   ![Halaman Hapus Komentar Blog IT](https://github.com/Reswn/Blog-app/blob/main/Screenshot_10-1-2025_15350_localhost.jpeg?raw=true)  
 ### 4. Menghapus Konten  
    Jika terdapat konten yang tidak sesuai atau diminta untuk dihapus, admin dapat menghapus artikel tersebut dari platform. Hal ini memastikan bahwa hanya konten 
    yang relevan dan sesuai kebijakan yang tersedia di platform. 
    
-   ![Halaman Hapus Konten Blog IT](https://github.com/Reswn/Blog-app/blob/main/deleteContentAdminPbw.png?raw=true)  
+   ![Halaman Hapus Konten Blog IT](https://github.com/Reswn/Blog-app/blob/main/Screenshot_10-1-2025_145346_localhost.jpeg?raw=true)  
+
+
+## Responsivitas di layar lebih kecil
+### Tampilan Lebih Kecil
+ ![Halaman Hapus Konten Blog IT](https://github.com/Reswn/Blog-app/blob/main/Screenshot_10-1-2025_153637_localhost.jpeg?raw=true)  
+
+### Menu Side Bar
+ ![Menu Side Bar](https://github.com/Reswn/Blog-app/blob/main/Screenshot_10-1-2025_153659_localhost.jpeg?raw=true)  
+
 
 
 ## 10. Kesimpulan
