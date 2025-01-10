@@ -249,6 +249,7 @@ Pengguna dapat keluar dari akun mereka, dan token JWT dihapus.
    ![Halaman Utama](https://github.com/Reswn/Blog-app/blob/main/Screenshot_10-1-2025_135420_localhost.jpeg?raw=true)
 ### 10. Menghapus Konten Sendiri
    User yang telah membuat artikel atau konten dapat menghapusnya jika diperlukan. Hal ini memungkinkan user untuk mengelola dan memperbarui konten mereka dengan mudah.
+   
    ![Halaman Konten](https://github.com/Reswn/Blog-app/blob/main/Screenshot_10-1-2025_145346_localhost.jpeg?raw=true)
 ### 11. Mencoba Membuat Konten
    User juga dapat membuat artikel atau konten baru melalui halaman editor yang disediakan. Dengan fitur ini, user dapat berbagi pengetahuan, pengalaman, atau opini mereka kepada komunitas.
@@ -278,7 +279,8 @@ Pengguna dapat keluar dari akun mereka, dan token JWT dihapus.
    ![Halaman Hapus Komentar Blog IT](https://github.com/Reswn/Blog-app/blob/main/deleteCommentPbw.png?raw=true)  
 ### 4. Menghapus Konten  
    Jika terdapat konten yang tidak sesuai atau diminta untuk dihapus, admin dapat menghapus artikel tersebut dari platform. Hal ini memastikan bahwa hanya konten 
-   yang relevan dan sesuai kebijakan yang tersedia di platform.  
+   yang relevan dan sesuai kebijakan yang tersedia di platform. 
+   
    ![Halaman Hapus Konten Blog IT](https://github.com/Reswn/Blog-app/blob/main/deleteContentAdminPbw.png?raw=true)  
 
 
